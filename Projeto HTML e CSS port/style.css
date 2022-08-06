@@ -1,0 +1,173 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'georgia', sans-serif;
+}
+h3{
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 130px;
+    float: left;
+}
+.header{
+    background-color: black;
+}
+.topo{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 40px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: purple;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9968a3;
+	background-color:#7035b3;
+	border-radius:17px;
+	border:1px solid #ab29a2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:20px;
+	padding:10px 23px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#862dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.button-nav {
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:17px;
+	padding:11px 33px;
+	text-decoration:none;
+}
+.button-nav:hover {
+	background-color:#d12ed1;
+}
+.button-nav:active {
+	position:relative;
+	top:1px;
+}
+.body-principal{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-left: 150px;
+    clear: both;
+}
+.imagem-body{
+    margin-top: 200px;
+    margin-right: 100px;
+}
+.foto-body{
+    height: 400px;
+}
+.body-ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+#aprendendo{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.body-ul li{
+    padding-right: 20px;
+}
+.conhecimentos{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.conhecimentos-body{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.conhecimento-body-div1{
+    margin-left: 160px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.conhecimento-body-div2{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.conhecimento-body-div3{
+    margin-left: 100px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}.imagen-conhecimento-body{
+    width: 200px;
+}
+#img-sobremim{
+    width: 150px;
+    float: left;
+}
+#Container-Sobre-mim{
+    border: 5px solid red;
+}
+.icone-sobremim{
+    width: 100px;
+}
+/*Olhar isso depois para arrumar, o fluxograma ta estranho por causa da imagem e quero colocar uma imaagem na direita */
+.Sobre-config{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+}
+#container-texto-sobremim{
+    justify-content: center ;
+    margin-top: 30px;
+    width: 1200px;
+}
+.Experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
